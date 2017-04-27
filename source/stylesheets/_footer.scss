@@ -1,0 +1,31 @@
+.footer-sitewide {
+  
+  background-color: $brand-grey-light;
+  padding: 1em;
+  margin-top: 2em;
+  
+  h3 {
+    
+    font-size: 25px;
+  }
+  
+  a {
+    
+    color: $gray;
+    text-decoration: underline;
+    
+    &:hover { 
+    
+      color: $brand-primary;
+      text-decoration: underline;
+      
+    }
+  }
+  
+  .footer-sub {
+    
+    margin-top: 2em;
+    
+  }
+  
+}

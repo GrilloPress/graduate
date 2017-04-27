@@ -32,7 +32,13 @@ body {
 
 .highlight {
   
-  background-color: #16d2c5;
+  background-color: $brand-info;
   padding: 0 5px;
+  
+}
+
+.highlight-h1 {
+  
+  line-height: 1.3;
   
 }
