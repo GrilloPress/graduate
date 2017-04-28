@@ -5,6 +5,31 @@
   
 }
 
+.card-reasons {
+  
+  text-align: left;
+  // margin-top: 3em;
+  
+  ol {
+    
+    li {
+      
+      font-size: 22px;
+      border-bottom: 1px solid #FFF;
+      border-top: 1px solid #FFF;
+      
+      .mega {
+        
+        font-size: 66px;
+        font-weight: 700;
+        
+      }
+      
+    }
+  }
+
+}
+
 .card-colourful {
   
   background: #911e73;
@@ -19,6 +44,30 @@
     
   }
   
+}
+
+.card-cta {
+  
+  margin-top: 2em;
+  
+}
+
+.card-feature {
+  
+  color: #FFF;
+  
+  a {
+    
+    color: #FFF;
+    
+  }
+  
+  h2, h3, h4 {
+    
+    color: #FFF;
+    margin-top: 0;
+    
+  }
 }
 
 .card-jumbotron {

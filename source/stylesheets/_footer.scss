@@ -1,8 +1,12 @@
 .footer-sitewide {
   
-  background-color: $brand-grey-light;
   padding: 1em;
-  margin-top: 2em;
+  
+  hr {
+    
+    border-top: 5px solid $gray;
+    
+  }
   
   h3 {
     
