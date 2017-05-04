@@ -53,3 +53,24 @@ body {
   
   padding: 0.5em 0;
 }
+
+
+// Graduate application step indicators in the H4 Area. Changes from side to down arrow on mobile
+
+.glyphicon-graduate-menu {
+  
+  float: right;
+  
+}
+
+.glyphicon-graduate-menu:before {
+  
+  content: "\e258";
+  
+  @media screen and (max-width: $screen-sm){
+  
+  content: "\e259";
+  
+  }
+  
+}

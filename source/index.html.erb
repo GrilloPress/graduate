@@ -9,12 +9,12 @@ title: Graduate Management Training Scheme
         <div class="jumbotron-inner">
           <h1>Graduate Management Training Scheme</h1>
           <p class="lead">Help shape the future of the NHS</p>
-          <%= link_to "Find out more", "/index.html#scheme", class: "btn btn-lg btn-headroom btn-success visible-xs" %>
+          <%= link_to "Find out more", "/index.html#theScheme", class: "btn btn-lg btn-headroom btn-success visible-xs visible-sm" %>
         </div>
       </div>
       
       <div class="col-md-4 col-md-offset-1">
-        <div class="card card-colourful card-jumbotron hidden-xs">
+        <div class="card card-colourful card-jumbotron hidden-xs hidden-sm">
           <h2>Apply now</h2>
           <p>
             Are you ready to gain the skills, knowledge and confidence to make real improvements to the NHS?
@@ -111,6 +111,7 @@ title: Graduate Management Training Scheme
             <li>
               <span class="mega">27</span> days annual leave
             </li>
+     
           </ol>
 
         </div>
@@ -143,14 +144,14 @@ title: Graduate Management Training Scheme
       
       <div class="col-md-4">
         <h3 class="graduate-step" id="step1">1.</h3>
-        <h4>Online application</h4>
+        <h4>Online application <span class="glyphicon glyphicon-graduate-menu" aria-hidden="true"></span></h4>
         <p>Your application must be submitted via <a>the NHS Jobs by completing the online application form</a>. Candidates are encouraged to read the associated documentation prior to completing and submitting their application.</p>
         <p>Applications will be reviewed within 14 days from the advertisement being closed. If you successfully demonstrate how you meet the essential criteria you will be shortlisted to progress further through the application process.</p>
       </div>
       
       <div class="col-md-4">
         <h3 class="graduate-step" id="step2">2.</h3>
-        <h4>Assessment centre</h4>
+        <h4>Assessment centre <span class="glyphicon glyphicon-graduate-menu" aria-hidden="true"></span></h4>
         <p>Shortlisted candidates will progress through the selection process, including attendance at an assessment centre on the 14 July 2017.</p>
         <p>We will select 30 candidates to progress through to the assessment centre stage. During the assessment centre, participants will be required to complete a variety of exercises and will undergo a panel interview. </p>
       </div>
@@ -183,15 +184,21 @@ title: Graduate Management Training Scheme
       <div class="col-md-12">
         <h2 class="header-lg-space">Featured profiles</h2>
         <p>At Sheffield Teaching Hospitals NHS Foundation Trust we strive for excellence. This drives our continued commitment to develop great leaders and we firmly believe in the benefits of ‘growing our own’.</p>
-        <p>Many of our present leaders launched their careers through similar NHS management schemes including our current Chief Executive Sir Andrew Cash. You can find some below we introduce you to a few of these people below, they share with you their stories of career journeys and experiences along the way.</p>
+        <p>Many of our present leaders launched their careers through similar NHS management schemes including <%= link_to "our current Chief Executive Sir Andrew Cash", "/andrew-cash.html" %>.</p>
         
         <div class="row">
           <div class="col-md-4">
             
+            <article class="graduate-profile">
+              <header>
+              
+              </header>
+            </article>
+            
             <% link_to "andrew-cash.html" do %>
               <%= image_tag "cash_ward_4_sm.jpg", class: "img-responsive" %>
             <% end %>
-            <h3 class="graduate-profile"><%= link_to "Sir Andrew Cash OBE", "andrew-cash.html" %></h3>
+            <h3 class="graduate-profile"><%= link_to "Sir Andrew Cash OBE", "/andrew-cash.html" %></h3>
             <p>I completed the National NHS Graduate Management Training Scheme at the beginning of my career having left University and found it a wonderful entrance into the National Health Service... <a href="#">Read more</a></p>
             
           </div>
