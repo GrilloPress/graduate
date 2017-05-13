@@ -58,5 +58,6 @@ configure :build do
   activate :minify_javascript
   activate :relative_assets
   set :relative_links, true
+  activate :directory_indexes
   activate :livereload
 end
