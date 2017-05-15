@@ -3,6 +3,14 @@ title: Andrew Cash
 ---
   <div class="container">
     <div class="row">
+
+      <div class="col-md-12">
+        <ol class="breadcrumb">
+          <li><%= link_to "Home", "/index.html" %></li>
+          <li class="active">Sir Andrew Cash OBE</li>
+        </ol>
+      </div>
+
         <div class="col-md-12">
           <header>
             <h1>Sir Andrew Cash OBE</h1>
@@ -14,14 +22,6 @@ title: Andrew Cash
 
 <div class="container">
   <div class="row">
-    
-    <div class="col-md-12">
-      <ol class="breadcrumb">
-        <li><%= link_to "Home", "/index.html" %></li>
-        <li class="active">Sir Andrew Cash OBE</li>
-      </ol>
-    </div>
-    
     <div class="col-md-8">
       <%= image_tag "andrew_cash.jpg", class: "align-right", width: "250" %>
       <p class="lead">I completed a National NHS Graduate Management Scheme at the beginning of my career having left University and found it a wonderful entrance into the National Health Service. </p>
@@ -31,10 +31,21 @@ title: Andrew Cash
       <p>When I came back to the Trust in 2004 I led the merger between the Central Sheffield University’s Hospitals NHS Trust and the Northern General NHS Trust and thereafter led the movement to us becoming a first wave Foundation Trust and what is now know as Sheffield Teaching Hospitals today.</p>
     </div>
     
-    <div class="col-md-3 col-md-offset-1">
-      <aside class="sidebar"> 
-        <h3>Sidebar title</h3>
-        <p>This is where the things live</p>
+    <div class="col-md-4">
+      <aside class="sidebar">
+        <h3>Further details</h3>
+        <p>Further information about this role and Sheffield Teaching Hospitals NHS Foundation Trust can be found on below:</p>
+        <ul class="list-group">
+          <li class="list-group-item"><%= link_to "Application booklet", "./documents/Sheffield Teaching Hospitals NHS Foundation Trust Graduate Management Scheme.pdf" %></li>
+          <li class="list-group-item"><a href="http://www.sth.nhs.uk">Our website</a></li>
+          <li class="list-group-item"><a href="http://www.sth.nhs.uk/work-for-us">Our Working for Us pages</a></li>
+          <li class="list-group-item"><a href="http://www.sth.nhs.uk/futureplans">Our "Making a Difference Strategy" pages</a></li>
+          <li class="list-group-item"><a href="http://www.sth.nhs.uk/research-innovation">Our research and innovation pages</a></li>
+          <li class="list-group-item"><a href="http://www.sth.nhs.uk/about-us/official-publications/annual-report-and-accounts">Our Annual Reports and Accounts</a></li>
+          <li class="list-group-item"><a href="http://www.cqc.org.uk/provider/RHQ">Care Quality Commission inspection reports June 2016</a></li>
+          <li class="list-group-item"><a href="http://www.nhsstaffsurveys.com/Caches/Files/NHS_staff_survey_2016_RHQ_sum.pdf">NHS Staff Survey Results 2016</a></li>
+          <li class="list-group-item"><a href="http://www.sth.nhs.uk/patients/patient-experience/surveys/friends-and-family-test">Friends and Family test results</a></li>
+        </ul>
       </aside>
     </div>
     
