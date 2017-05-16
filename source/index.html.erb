@@ -230,6 +230,18 @@ title: Graduate Management Scheme
 
               <li class="media graduate-profile">
                 <div class="media-left">
+                  <% link_to "/rebecca-joyce.html" do %>
+                    <%= image_tag "becky_joyce.jpg", class: "media-object", alt: "Rebecca Joyce", width: "150" %>
+                  <% end %>
+                </div>
+                <div class="media-body">
+                  <h3 class="media-heading graduate-profile"><%= link_to "Rebecca Joyce", "/rebecca-joyce.html" %></h3>
+                  <p>I joined the Trust in 2007 as an Operations Director for Specialised Cancer and Medicine after spending 7 years working in the NHS in London. ... <%= link_to "read more", "/rebecca-joyce.html" %></p>
+                </div>
+              </li>
+
+              <li class="media graduate-profile">
+                <div class="media-left">
                   <% link_to "/maria-makhonina.html" do %>
                     <%= image_tag "maria_makhonina.jpg", class: "media-object", alt: "Maria Makhonina", width: "150" %>
                   <% end %>
@@ -239,7 +251,6 @@ title: Graduate Management Scheme
                   <p>After completing a graduate management scheme I joined a Service Improvement Team at Sheffield Teaching Hospitals and am working as an Improvement Facilitator working with a range of clinical teams across different ... <%= link_to "read more", "/maria-makhonina.html" %></p>
                 </div>
               </li>
-
             </ul>
 
           </div>
