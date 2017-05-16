@@ -190,7 +190,7 @@ title: Graduate Management Scheme
         
         <div class="row">
 
-          <div class="col-md-12">
+          <div class="col-md-9">
             <ul class="media-list">
               <li class="media graduate-profile">
                 <div class="media-left">
@@ -212,9 +212,22 @@ title: Graduate Management Scheme
                 </div>
                 <div class="media-body">
                   <h3 class="media-heading graduate-profile"><%= link_to "Anna Hescott", "/anna-hescott.html" %></h3>
-                  <p>I joined Sheffield Teaching Hospitals straight off my graduate scheme to work within the Medicine and Pharmacy Care Group supporting performance monitoring, business planning and improvement of our services. ... <a href="#">Read more</a></p>
+                  <p>I joined Sheffield Teaching Hospitals straight off my graduate scheme to work within the Medicine and Pharmacy Care Group supporting performance monitoring, business planning and improvement of our services. ... <%= link_to "read more", "/anna-hescott.html" %></p>
                 </div>
               </li>
+
+              <li class="media graduate-profile">
+                <div class="media-left">
+                  <% link_to "/michael-harper.html" do %>
+                    <%= image_tag "michael_harper.jpg", class: "media-object", alt: "Michael Harper", width: "150" %>
+                  <% end %>
+                </div>
+                <div class="media-body">
+                  <h3 class="media-heading graduate-profile"><%= link_to "Michael Harper", "/michael-harper.html" %></h3>
+                  <p>Following my graduate management scheme, I started at the Trust in 2000, as the then Operational Manager for A&amp;E and Endoscopy. The four hour A&amp;E standard was first implemented during my time ... <%= link_to "read more", "/michael-harper.html" %></p>
+                </div>
+              </li>
+
             </ul>
 
           </div>
